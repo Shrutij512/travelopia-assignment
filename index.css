@@ -1,0 +1,13 @@
+#main {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: calc(100vh - 200px)!important;
+    overflow: hidden;
+}
+
+#main-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
