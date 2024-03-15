@@ -1,20 +1,24 @@
 body,
 html {
     background-color: rgb(215, 215, 240);
+    /* Setting background color */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     overflow: hidden;
+    /* Hiding overflow */
 }
 
 
-/* navbar CSS */
+/* Navbar styles */
 
 .navbar {
     display: flex;
+    /* Using flexbox for layout */
     align-items: center;
     justify-content: space-around;
     width: 100%;
+    /* Taking full width */
     height: 100px;
 }
 
@@ -27,6 +31,7 @@ html {
 
 .ham {
     display: none;
+    /* Hiding hamburger menu icon by default */
 }
 
 
@@ -34,6 +39,7 @@ html {
 
 #main {
     position: relative;
+    /* Setting position relative for positioning */
     z-index: 0;
     width: 100%;
     height: calc(100% - 200px);
@@ -42,30 +48,48 @@ html {
 
 #main-img {
     width: 100%;
+    /* Taking full width */
     height: 100%;
     object-fit: cover;
+    /* Ensuring image covers the container */
 }
 
 #inner-container {
     position: absolute;
     transform: translate(-50%, -50%);
+    /* Centering horizontally and vertically */
     z-index: 2;
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
     width: 100%;
     height: 100%;
     padding: 20px 0;
+    /* Setting padding */
     top: 50%;
+    /* Positioning from top */
     left: 50%;
+    /* Positioning from left */
     text-align: center;
 }
 
 #inner-container h1 {
-    margin-top: 15%;
+    position: absolute;
+    /* Setting position absolute */
+    top: 40%;
+    left: 50%;
+    font-size: 45px;
+    transform: translate(-50%, -50%);
+    /* Centering horizontally and vertically */
+    z-index: 2;
+    color: white;
 }
 
 #btn {
-    margin-top: 1rem;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* margin-top: 1rem; */
     padding: 1rem;
     border: none;
     border-radius: 25px;
@@ -73,13 +97,45 @@ html {
 }
 
 
-/* footer CSS */
+/* Pop-up alert styles */
+
+.pop-up {
+    display: none;
+    /* Hiding alert container by default */
+    position: fixed;
+    /* Setting position fixed for alert container */
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -40%);
+    /* Centering alert container using transform */
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    z-index: 2;
+    /* Ensuring alert container is above other elements */
+    text-align: center;
+}
+
+#ok-btn {
+    padding: 5% 10%;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* Footer styles */
 
 .footer {
     width: 100%;
+    /* Taking full width */
     position: absolute;
     align-items: center;
+    /* Aligning items vertically */
     height: 100px;
+    /* Setting height 100px*/
 }
 
 .footer div {
@@ -90,6 +146,7 @@ html {
 
 .footer div i {
     margin: 10px;
+    /* Setting margin */
 }
 
 
@@ -98,26 +155,38 @@ html {
 @media screen and (max-width:740px) {
     .navbar>ul {
         display: none;
+        /* Hiding navbar items */
     }
     .ham {
         display: block;
+        /* Displaying hamburger menu icon */
     }
     .footer div {
         left: 35%;
     }
     #inner-container h1 {
-        margin-top: 25%;
+        font-size: 40px;
+        /* Adjusting font size */
     }
 }
 
 @media screen and (max-width:540px) {
     #inner-container h1 {
-        margin-top: 30%;
+        font-size: 35px;
+        /* Adjusting font size */
     }
 }
 
 @media screen and (max-width:420px) {
     #inner-container h1 {
-        margin-top: 40%;
+        font-size: 30px;
+        /* Adjusting font size */
+    }
+}
+
+@media screen and (max-width:250px) {
+    #inner-container h1 {
+        font-size: 25px;
+        /* Adjusting font size */
     }
 }

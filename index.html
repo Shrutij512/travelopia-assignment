@@ -12,6 +12,7 @@
     <nav class="navbar">
         <h1> Travelopia</h1>
         <ul>
+            <!-- Navigation links -->
             <li>Home</li>
             <li>About</li>
             <li>Services</li>
@@ -19,19 +20,32 @@
             <li>Contact</li>
         </ul>
         <div class="ham">
+            <!-- Hamburger icon for small screen -->
             <i class="fa-solid fa-bars"></i>
         </div>
     </nav>
+
+    <!-- Main content section -->
     <div id="main">
         <img src="https://d21vwm96zyfwvd.cloudfront.net/assets/files/1363/classic_everest_base_camp_trek.1800x700.webp" alt="mountains" id="main-img">
         <div id="inner-container">
-            <h1>Travel the world !!</h1>
-            <button id="btn">Click here</button>
+            <h1>Travel the world </h1>
+            <button id="btn" onclick="showPopup()">Click here</button>
+        </div>
+    </div>
+    <div>
+        <!-- Pop-up alert section -->
+        <div id="alert" class="pop-up">
+            <h2>Hello, World!</h2>
+            <button onclick="closePopup()" id="ok-btn">OK</button>
+            <!-- OK button to close alert -->
         </div>
     </div>
 
+    <!-- Footer section -->
     <footer class="footer">
         <div>
+            <!-- Social media icons -->
             <i class="fa-brands fa-instagram"></i>
             <i class="fa-brands fa-twitter"></i>
             <i class="fa-brands fa-youtube"></i>
