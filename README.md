@@ -31,10 +31,9 @@ This is a full-page component which contains header, footer and main area consis
 
 ## Screenshots
 
-![travelopia-3](https://github.com/Shrutij512/travelopia-assignment/assets/132148988/b3545ca6-b643-4b33-972c-70e30fcb6cb4)
+![travelopia-1](https://github.com/Shrutij512/travelopia-assignment/assets/132148988/b46220d6-fdb3-477b-abb6-c6524e8b2c70)
 
-![travelopia-1](https://github.com/Shrutij512/travelopia-assignment/assets/132148988/9501af2b-d395-4cf5-aae2-5f53a7c29ba5)
+![travelopia-2](https://github.com/Shrutij512/travelopia-assignment/assets/132148988/64515333-2d2b-4e03-bb39-f8a1d2ab3a74)
 
-![travelopia-2](https://github.com/Shrutij512/travelopia-assignment/assets/132148988/194d6f85-dceb-4fd3-b3e8-635a1c138487)
+![travelopia-3](https://github.com/Shrutij512/travelopia-assignment/assets/132148988/afe76c69-41ba-44ac-a4e8-9c0b04313a57)
 
-![travelopia-4](https://github.com/Shrutij512/travelopia-assignment/assets/132148988/2fa96050-e4b6-418f-b6dc-11e504429383)
