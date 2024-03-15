@@ -12,10 +12,13 @@ This is a full-page component which contains header, footer and main area consis
 
 ## Features
 
-- Utilizes semantic elements for better structure and accessibility.
-- Adds a visually appealing overlay for improved text readability.
-- 100px navbar and footer create a clean, minimalist layout.
-- Engage users with a click-triggered alert for dynamic interaction.
+- Navbar and Footer have a height of 100px each.
+- Display value as "flex" for the header and footer to style them as horizontal lists and center the content present in header and footer.
+- Implements a translucent overlay above the background image for enhanced visual appeal.
+- Given main-div position as relative and display title and button at the centre using proper top and left values.
+- Utilizes a custom-styled alert dialog with an "OK" button that closes upon click.
+- A responsive hamburger menu.
+- calc CSS roperty is used to dynamically adjust the height of the image relative to its parent container.
 
 ## How to run
 
