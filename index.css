@@ -106,7 +106,7 @@ html {
     /* Setting position fixed for alert container */
     top: 50%;
     left: 50%;
-    transform: translate(-40%, -40%);
+    transform: translate(-50%, -50%);
     /* Centering alert container using transform */
     background-color: white;
     padding: 1rem;
